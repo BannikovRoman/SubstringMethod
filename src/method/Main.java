@@ -36,9 +36,7 @@ public class Main {
         System.out.println("String = " + str);
         System.out.println("Substring = " + subStr + "\n");
 
-        ArrayList<Integer> result = getIndexSubstring(str, subStr);
-
-        for (Integer index: result) {
+        for (Integer index: getIndexSubstring(str, subStr)) {
             System.out.println("Start substring = " + index);
         }
     }
